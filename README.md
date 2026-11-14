@@ -1,6 +1,6 @@
 # SymbolPill
 
-Les symboles scientifiques qu'on ne trouve pas sur le clavier, à un clic, dans la barre des menus de macOS : lettres grecques, flèches, ≤ ≥ ± ≈, exposants et indices (×10⁻³, x², Ca²⁺, HCO₃⁻), symboles médicaux… Pensé pour un étudiant en médecine qui prend ses notes sur ordinateur.
+Je prends mes notes de cours sur Mac, et je perdais un temps fou à chercher comment écrire Ca²⁺, HCO₃⁻, β, ≈ ou ×10⁻³. Du coup j'ai fait une petite app qui se met dans la barre des menus : je clique, je tape « ca2+ » ou « delta », et le symbole est copié.
 
 *Scientific symbols you can't type, one click away in the macOS menu bar: Greek letters, arrows, superscripts and subscripts, ions, medical signs. Built for med students taking notes on a Mac. One Swift file.*
 
@@ -14,7 +14,7 @@ Les symboles scientifiques qu'on ne trouve pas sur le clavier, à un clic, dans 
 - Les signes qui s'affichent d'habitude en emoji couleur (♂ ♀ ⚠…) sont copiés en version texte.
 - Option « Ouvrir à l'ouverture de session ». Thème clair et sombre.
 
-Le catalogue est en haut de `SymbolPill.swift` (une ligne par symbole : `"symbole|nom|mots-clés"`) : facile à adapter à ta matière.
+Tous les symboles sont listés en haut de `SymbolPill.swift`, une ligne par symbole (`"symbole|nom|mots-clés"`). Si tu fais une autre filière, c'est facile d'ajouter les tiens.
 
 ## Installer
 
